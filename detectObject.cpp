@@ -6,7 +6,7 @@
 // Input is temporarily shrunk to 'scaledWidth' for much faster detection, since 200 is enough to find faces.
 void detectObjectsCustom(const Mat &img, CascadeClassifier &cascade, vector<Rect> &objects, int scaledWidth, int flags, Size minFeatureSize, float searchScaleFactor, int minNeighbors)
 {
-	// If the input image is not grayscale, then convert the BGR or BGRA color image to grayscale.
+	// If the input image is not grayscale, then convert the BGR or BGRA color image to grayscale.222
 	Mat gray;
 	if (img.channels() == 3) {
 		cvtColor(img, gray, CV_BGR2GRAY);
