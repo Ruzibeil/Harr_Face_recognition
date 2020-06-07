@@ -14,7 +14,7 @@ using namespace std;
 
 
 
-// Search for just a single object in the image, such as the largest face, storing the result into 'largestObject'.
+// Search for just a single object in the image, such as the largest face, storing the result into 'largestObject'.333
 // Can use Haar cascades or LBP cascades for Face Detection, or even eye, mouth, or car detection.
 // Input is temporarily shrunk to 'scaledWidth' for much faster detection, since 240 is enough to find faces.
 // Note: detectLargestObject() should be faster than detectManyObjects().
