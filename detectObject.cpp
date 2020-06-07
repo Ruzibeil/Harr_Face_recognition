@@ -1,4 +1,4 @@
-#include "detectObject.h"       // Easily detect faces or eyes (using LBP or Haar Cascades).
+#include "detectObject.h"       // Easily detect faces or eyes (using LBP or Haar Cascades).111
 
 
 // Search for objects such as faces in the image using the given parameters, storing the multiple cv::Rects into 'objects'.
